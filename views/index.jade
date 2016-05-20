@@ -1,5 +1,34 @@
 extends layout
 
+link (href='https://fonts.googleapis.com/css?family=Oxygen:300|Coming+Soon', rel='stylesheet', type='text/css')
+
+block header
+	h1#title #{title}
+
 block content
-  h1= title
-  p Welcome to #{title}
+	div#content-span
+		block widget
+			div#widget
+				iframe#spotify(src="https://embed.spotify.com/?uri=https://open.spotify.com/track/334S9SWZMjyRDN0wrHw7wk", width="300", height="380", frameborder="0", allowtransparency="true")
+		block mood-choose
+			div#mood-choose
+				block current-mood-chooser
+					h1 what do you feel?
+					div#current-mood-chooser
+						ul
+							li mixin vodka and emotions
+							li life of the mf party
+							li deep in my feels :'(
+							li vengeful
+				block future-mood-chooser
+					h1 what do you wanna feel?
+					div#future-mood-chooser
+						ul
+							li mixin vodka and emotions
+							li life of the mf party
+							li deep in my feels :'(
+							li vengeful
+
+block footer
+	div#footer
+		d

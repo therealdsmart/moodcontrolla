@@ -1,8 +1,67 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 10px;
+  background-color: #DAA520;
+  color: white;
 }
-
 a {
   color: #00B7FF;
 }
+#title{
+	text-align: center;
+	width: 100vw;
+	font-size: 3rem;
+	margin: 2% 0 2% 0;
+	font-family: 'Coming Soon', sans-serif;
+}
+
+
+#footer{
+	background-color: red;
+}
+
+#content-span{
+	display: block;
+}
+	#widget{
+		width: 80vw;
+		margin: 0 10vw 0 10vw;
+		text-align: center;
+
+	}
+		#spotify{
+			margin: 0 0 2% 0;
+		}
+	#mood-choose{
+		width: 80vw;
+		text-align: center;
+		margin: 0 10vw 0 10vw;
+
+	}	
+		#current-mood-chooser{
+			overflow: scroll;
+			max-height: 20vh;
+
+		}
+		#future-mood-chooser{
+			overflow: scroll;
+			max-height: 20vh;
+		}
+		ul{
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+		li{
+			list-style-type: none;
+			height: 10vh;
+			width: 10vw;
+			float: left;
+			font-size: 1rem;
+			padding: 2% 2% 2% 2%;
+			text-align: center;
+		}
+		li:hover{
+			background-color: black;
+			color: white;
+		}
