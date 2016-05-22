@@ -1,0 +1,57 @@
+GITHUB AYY
+
+step 1:
+	install git https://git-scm.com/download/mac
+
+step 2:
+	pull the code from github.com by typing:
+
+		git pull https://github.com/therealdsmart/moodcontrolla.git
+
+	in the directory that you want the project to be in
+
+yayyyyy you have the code.
+
+_____________________________
+
+COMMITING AND PUSHING CHANGES
+
+step 1:
+	add changes by typing
+		
+		git add --all
+
+	in the moodcontrolla directory
+
+step 2:
+	when you are at a point where you are ready to send all of your changes to the project, commit by typing
+
+		git commit -m "insert message here"
+
+step 3:
+	when you are finally ready for all of your changes to take effect and actually change the project's code, type:
+
+		git push
+
+
+_____________________________
+
+MAKING THE PROJECT WORK
+
+using the guide, make sure you have these thing installed:
+
+guide: http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+	-Node.js
+	
+install dependencies by typing:
+	
+	npm install
+
+now we're ready to code! start the web server by typing:
+
+	npm start
+
+go to http://localhost:3000 to see the website.
+
+*when you change any js files, type Ctrl + C to kill the server and then start it up again.
