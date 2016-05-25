@@ -6,7 +6,7 @@ step 1:
 step 2:
 	pull the code from github.com by typing:
 
-		git pull origin https://github.com/therealdsmart/moodcontrolla.git
+		git clone https://github.com/therealdsmart/moodcontrolla.git
 
 	in the directory that you want the project to be in
 
